@@ -2,6 +2,10 @@
   "name": "react-ecommerce",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "12.16.2",
+    "yarn": "1.22.4"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -17,7 +21,8 @@
     "redux": "^4.0.5",
     "redux-logger": "^3.0.6",
     "redux-persist": "^6.0.0",
-    "reselect": "^4.0.0"
+    "reselect": "^4.0.0",
+    "styled-components": "^5.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
